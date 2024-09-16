@@ -1,0 +1,51 @@
+import math
+
+
+class Config:
+    gamma_Acc = 0.25
+    d_v_0 = 1.0
+    l_Acc = 2.5
+    gamma_z = 0.25
+    d_z_0 = 1.25
+    a_z = 1.0
+    L_z_2 = 1.75
+    gamma_Ali = 0.4
+    d_Ali_0 = 1.0
+    l_Ali = 2.5
+    alpha_Ali = 1.0
+    gamma_Att = 0.25
+    d_Att_0 = 1.25
+    l_Att = 2.75
+    alpha_Att = 1.0
+    gamma_perp = 0.5
+    gamma_parallel = 0.5
+    sigma_z = 1
+    gamma_w = 1.2
+    e_w1 = 1.25
+    e_w2 = 0.0
+    l_w = 2.5
+    center = [0.0, 0.0, 0.0]
+    radius = 1
+    dist_to_opening = 0.2
+    normal_vector = [0.0, 0.0, 1.0]
+    gamma_Dest_h = 2
+    gamma_Dest_v = 0.4
+    l_Dest = 3
+    alfa_Dest_d = 2
+    alfa_Dest_v = 1
+    v_Dest = 0.7
+    slot_num = 25
+    time_step = 0.03333333333333333
+    fls_size = 0.075
+    path_policy = 0
+    space = 2
+    init_altitude = 0.1
+    Q = 1
+    speed_range = [3, 0]
+    acc_range = [1.0, 1.0]
+    fresh_rate = 1
+    wirte_traj = 0
+    shape = 'test'
+    results_path = 'results/log/'
+    figrue_path = './results/frames/'
+    inter_arrival_time = (2 * math.pi * 1)/(25 * 0.7)
