@@ -3,8 +3,8 @@ import re
 from collections import defaultdict
 
 # File paths
-input_file = 'results/log_salt/collisions/collisions.txt'
-output_file = 'results/log_salt/collisions/collision_categories.csv'
+input_file = 'results/log/collisions/collisions.txt'
+output_file = 'results/log/collisions/collision_categories.csv'
 
 all_keys = set()
 data_rows = []

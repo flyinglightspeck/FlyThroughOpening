@@ -43,9 +43,9 @@ class Config:
     Q = 1
     speed_range = [3, 0]
     acc_range = [1.0, 1.0]
-    fresh_rate = 1
+    fresh_rate = 0
     wirte_traj = 0
-    shape = 'test'
+    shape = 'test_10'
     results_path = 'results/log/'
     figrue_path = './results/frames/'
     inter_arrival_time = (2 * math.pi * 1)/(25 * 0.7)

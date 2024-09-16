@@ -109,7 +109,7 @@ def analyse_collision_SD(config, shape_file, file_path):
     return result
 
 
-directory = "./results/log_salt"
+directory = "./results/log"
 txt_files = [f for f in os.listdir(directory) if f.endswith('.txt')]
 
 data = []

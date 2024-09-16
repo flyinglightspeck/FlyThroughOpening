@@ -4,7 +4,7 @@ from config_local import Config
 
 if __name__ == "__main__":
 
-    directory = "./results/log_salt"
+    directory = "./results/log"
     display_cell_size = Config.fls_size
     txt_files = [f for f in os.listdir(directory) if f.endswith('.txt')]
     info_list = []
