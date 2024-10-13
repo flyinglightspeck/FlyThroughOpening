@@ -16,7 +16,7 @@ The simulator runs either OPT, the Shortest Distance (SD) or the Fastest Rendezv
 To run OPT, execute the script OPT_shape_to_opening.py, issue the command `python OPT_shape_to_opening.py` or `python3 OPT_shape_to_opening.py`.
 Adjust the value of path_policy in config.py to run FRT (`path_policy=0`) or SD (`path_policy=1`).
 Next, run the simulator, execute the script simu_with_shapes.py, i.e., issue the command `python simu_with_shapes.py` or `python3 simu_with_shapes.py`.
-The initial formation shape of the FLS can be selected by changing "shape" in config_local.py. One can select a name from existing files in ./assets/ directory.
+The initial formation shape of the FLS can be selected by changing `shape` in config_local.py. One can select a name from existing files in `./assets/` directory.
 
 ## Acknowledgments
 This research was supported in part by the NSF grants IIS-2232382 and CMMI-2425754.
