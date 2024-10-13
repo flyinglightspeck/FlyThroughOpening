@@ -12,11 +12,12 @@ Click the image below to watch the YouTube clip of the implementation using 5 Cr
 Python 3.9 with numpy, matplotlib, pandas, scipy.
 
 ## Instructions to run
-To run the simulator, execute the script simu_with_shapes.py, i.e., issue the command `python simu_with_shapes.py` or `python3 simu_with_shapes.py`.
-The simulator runs either the Shortest Distance (SD) or the Fastest Rendezvous Time (FRT) algorithm. Adjust the value path_policy in config.py to run FRT (`path_policy=0`) or SD (`path_policy=1`).
+The simulator runs either OPT, the Shortest Distance (SD) or the Fastest Rendezvous Time (FRT) algorithm.
 To run OPT, execute the script OPT_shape_to_opening.py, issue the command `python OPT_shape_to_opening.py` or `python3 OPT_shape_to_opening.py`.
+Adjust the value of path_policy in config.py to run FRT (`path_policy=0`) or SD (`path_policy=1`).
+Next, run the simulator, execute the script simu_with_shapes.py, i.e., issue the command `python simu_with_shapes.py` or `python3 simu_with_shapes.py`.
 The initial formation shape of the FLS can be selected by changing "shape" in config_local.py. One can select a name from existing files in ./assets/ directory.
 
 ## Acknowledgments
 This research was supported in part by the NSF grants IIS-2232382 and CMMI-2425754.
-We gratefully acknowledge CloudBank and CloudLab for the use of their resources to enable all experimental results presented in this paper.
+We gratefully acknowledge CloudBank and CloudLab for the use of their resources to enable an evaluation of the alternative algorithms.
