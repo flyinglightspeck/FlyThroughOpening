@@ -9,3 +9,5 @@ Click the image below to watch the YouTube clip of the implementation using 5 Cr
 [![A Demonstration](https://github.com/flyinglightspeck/CircularFlightPattern/blob/main/simulation.png)](https://www.youtube.com/watch?v=_hcwj3lhY5g)
 
 
+## Acknowledgments
+This research was supported in part by the NSF grants IIS-2232382 and CMMI-2425754.
