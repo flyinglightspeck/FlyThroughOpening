@@ -1,5 +1,5 @@
 # FlyThroughOpening
-An implementation of 3 algorithms to fly a swarm of drones through an opening.  The first technique, OPT, is time optimal but results in many collisions near the opening.  It motivates a multi-slot circular flight pattern that flies the drones through the opening one at a time.  Our implementation includes two algorithms for the drones to occupy their assigned slots, Shortest Distance (SD) and Fastest Rendezvous Time (FRT).
+An implementation of three algorithms to fly a swarm of drones through an opening.  The first technique, OPT, is time optimal but results in many collisions near the opening.  It motivates a multi-slot circular flight pattern that flies the drones through the opening one at a time.  Our implementation includes two algorithms for the drones to occupy their assigned slots, Shortest Distance (SD) and Fastest Rendezvous Time (FRT).
 
 Authors:  Shuqin Zhu (shuqinzh@usc.edu) and Shahram Ghandeharizadeh (shahram@usc.edu)
 
